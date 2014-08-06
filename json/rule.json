@@ -1,0 +1,7 @@
+{
+    "type": "header"
+  , "header": "host"            
+  , "operation": "hdr_dom"
+  , "value": "baz.com"
+  , "backend": "baz" 
+}

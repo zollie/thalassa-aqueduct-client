@@ -1,0 +1,17 @@
+{
+    "id": "frontend/myapp",
+    "_type": "frontend",
+    "key": "myapp",
+    "bind": "*:8080,*:80",
+    "backend": "live",
+    "mode": "http",
+    "keepalive": "default",
+    "rules": [{
+        "type": "header",
+        "header": "host",
+        "operation": "hdr_dom",
+        "value": "staged.myapp.com",
+        "backend": "staged"
+    }],
+    "natives": []
+}

@@ -1,0 +1,38 @@
+{
+    "id": "backend/live",
+    "_type": "backend",
+    "key": "live",
+    "type": "dynamic",
+    "name": "classroom-ui",
+    "version": "1.0.0",
+    "balance": "roundrobin",
+    "host": null,
+    "mode": "http",
+    "members": [{
+        "name": "myapp",
+        "version": "1.0.0",
+        "host": "10.10.240.121",
+        "port": 8080,
+        "lastKnown": 1378762056885,
+        "meta": {
+            "hostname": "dev-use1b-pr-01-myapp-01x00x00-01",
+            "pid": 17941,
+            "registered": 1378740834616
+        },
+        "id": "/myapp/1.0.0/10.10.240.121/8080"
+    },
+    {
+        "name": "myapp",
+        "version": "1.0.0",
+        "host": "10.10.240.80",
+        "port": 8080,
+        "lastKnown": 1378762060226,
+        "meta": {
+            "hostname": "dev-use1b-pr-01-myapp-01x00x00-02",
+            "pid": 18020,
+            "registered": 1378762079883
+        },
+        "id": "/myapp/1.0.0/10.10.240.80/8080"
+    }],
+    "natives": []
+}
